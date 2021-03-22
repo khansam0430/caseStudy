@@ -29,9 +29,9 @@ form {
   }
 
   #main{
-    background-color:#a7beae; 
+    background-image: linear-gradient(to bottom right,#c76b6b , rgb(245, 245, 245) ); 
     padding-top: 1px;
-    padding-bottom: 50px;
+    padding-bottom: 500px;
   }
   
   /* Extra style for the cancel button (red) */
@@ -48,9 +48,13 @@ form {
   }
   
   /* Avatar image */
-  img.logo {
+  img.logo, .logoSU {
     width: 9%;
     opacity: .7;
+  }
+
+  .logoSU{
+    padding-top: 50px;
   }
   
   .loginBack{
@@ -63,14 +67,31 @@ form {
     margin-top:  50px;
     padding-top: 25px;
     padding-bottom: 25px;
-    
   } 
+
+  .loginBackSignUp{
+  background-image: url("./images/login_back.png");
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;  
+ background-size: 950px 1200px;
+  }
             
   /* Add padding to containers */
-  .form-container {
+  .form-container, .sign-up-form {
     text-align: center;
     padding-bottom: 60px;
-   
+  }
+
+  #notMember{
+    margin-top: 30px;
+  }
+
+  .sign-up-form{
+    position: relative; 
+    font: black;
+    padding-bottom: 25px; 
   }
 
   #loginButton {
@@ -83,8 +104,8 @@ form {
   #signupButton {
     color: white;
     background-color: #fa9494 ;
-    margin-top: 35px;
     border-radius: 28px;
+    margin-top: 20px;
   }
   
   /* Change styles for span and cancel button on extra small screens */
@@ -93,3 +114,5 @@ form {
       display: block;
       float: none;
     }}
+
+  
