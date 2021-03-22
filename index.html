@@ -4,9 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Bambii</title>
 </head>
 <body>
-    
+    <div id="main">
+    <div class="loginBack">
+    <div id="formId">
+         <form action="action_page.php" method="post">
+            <div class="imgcontainer">
+                <img src="./images/baby-feet.png" alt="Baby Feet Logo" class="logo">
+                <br>
+                <h2 style="font-size: 36pt;">Bambii</h2>
+            </div>
+            <div class="form-container">
+                    <label for="uname"><b>Username</b></label><br>
+                    <input type="text" placeholder="Enter Username" name="uname" required><br>
+                    <label for="psw"><b>Password</b></label><br>
+                    <input type="password" placeholder="Enter Password" name="psw" required><br>
+                    <button id="loginButton" type="submit">Login</button><br>
+                    <button id="signupButton" type="button" class="signupbtn">Sign Up</button>
+                </div>
+            </div>
+      </form> 
+    </div>
+
+    <!-- <div>Icons made by <a href="" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>    </div> -->
 </body>
 </html>
