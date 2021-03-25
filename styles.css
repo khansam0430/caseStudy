@@ -1,3 +1,7 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
 form {
     font-size: 13pt;
   }
@@ -29,7 +33,7 @@ form {
   }
 
   #main{
-    background-image: linear-gradient(to bottom right,#c76b6b , rgb(245, 245, 245) ); 
+    background-image: linear-gradient(to bottom right, #c76b6b , rgb(245, 245, 245) ); 
     padding-top: 1px;
     padding-bottom: 500px;
   }
@@ -51,7 +55,27 @@ form {
   img.logo, .logoSU {
     width: 9%;
     opacity: .7;
+  } 
+
+  #navbar{
+  background-color: rgb(255, 255, 255);
+  font: black;
+  margin-bottom: 1%;
+  background-color: white;
+  display: inline-block;
+  position: relative;
+  font-size: 14pt;
+  padding-top: 10pt;
+  padding-bottom: 4pt;
   }
+
+.logo-nav{
+    float: left; 
+    position: relative;
+    width: 4%;
+    padding: 7pt;
+    opacity: .7;
+}
 
   .logoSU{
     padding-top: 50px;
@@ -75,7 +99,7 @@ form {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;  
- background-size: 950px 1200px;
+  background-size: 950px 1200px;
   }
             
   /* Add padding to containers */
@@ -115,4 +139,86 @@ form {
       float: none;
     }}
 
+  #homepage{
+    background-image: url("./images/home-back.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  .feed {
+    background-color: #3b816c;
+    border: none;
+    height: 90px;
+    width: 90px;
+    color: white;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 14pt;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 30%;
+    margin-right: 3%;
+    box-shadow:  0px 5px 5px #2d6151;
+  }
+
+  .sleep{
+    background-color: #1982C4;
+    border: none;
+    height: 90px;
+    width: 90px;
+    color: white;
+    border-radius: 10%;
+    font-size: 14pt;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 3%;
+    box-shadow:  0px 5px 5px #155781;
+  }
+
+  .diaper{
+    background-color: #cc9809;
+    border: none;
+    height: 90px;
+    width: 90px;
+    color: white;
+    border-radius: 10%;
+    font-size: 14pt;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 3%;
+    box-shadow:  0px 5px 5px #806009;
+  }
+
+  .pump{
+    background-color: #B24C63;
+    border: none;
+    height: 90px;
+    width: 90px;
+    color: white;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 14pt;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 3%;
+    box-shadow: 0px 5px 5px #703643;
+  }
+
+  .extra{
+    background-color: #6A4C93;
+    border: none;
+    height: 90px;
+    width: 90px;
+    color: white;
+    border-radius: 10%;
+    font-size: 14pt;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 25%;
+    box-shadow: 0px 5px 5px #493566;
+  }
   

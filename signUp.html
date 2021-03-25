@@ -4,16 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"/>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <title>Bambii</title>
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <!-- Linking CSS Stylesheet -->
+   <link rel="stylesheet" href="styles.css"/>
+   <!-- jQuery library -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <!-- Latest compiled JavaScript -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <!-- GoogleFont -->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+   <title>Bambii</title>
 </head>
+
 <body>
+    <div>
+        <img src="./images/baby-feet.png" alt="Baby Feet Logo" class="logo-nav" style="background-color: white;">
+         <nav id="navbar">
+             <div class="navbar-header">
+                 <a class="navbar-brand" href="#" style="font-size: 18pt; font-weight: bolder;">Bambii</a>
+               </div>
+               <ul class="nav navbar-nav">
+                 <li><a href="./home.html">Home</a></li>
+                 <li><a href="./aboutUs.html">About Us</a></li>
+                 <li><a href="./index.html">Log In/Out</a></li>
+               </ul>
+         </nav>
+     </div>
+
     <div id="main">
         <div class="loginBackSignUp">
             <div id="formId">
@@ -23,7 +42,7 @@
                         <div class="imgcontainer">
                             <img src="./images/baby-feet.png" alt="Baby Feet Logo" class="logoSU">
                             <br>
-                            <h2 style="font-size: 36pt; margin-bottom: 40pt;">Bambii</h2>
+                            <h2 style="font-size: 36pt; font-weight: bolder; margin-bottom: 40pt;">Bambii</h2>
                         </div>
                         <div>
                             <label for="user" class="label" style="color: black; font-size: 14pt;">Username</label><br>
@@ -37,7 +56,6 @@
                         <label for="tab-1" id="notMember">Already a Member?</label><br>
                         <a href="./index.html"><button id="loginButton" type="button">Login</button></a><br>
                     </div>
-                    
                 </form> 
             </div>
         </div>
