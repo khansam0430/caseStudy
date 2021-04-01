@@ -34,22 +34,24 @@
         </nav>
     </div>
     <div>
-        <h1 style="color: rgb(199, 61, 93); margin-left: 20px;"><strong>Welcome, User</strong></h1>
+        <h1 style="color: rgb(199, 61, 93); margin-left: 20px;"><strong>Extra</strong></h1>
     </div>  
-    <div id="homeButtons">
-        <a href="./feed.html"><input type="button" class="feed" value="Feed"/></a>
-        <a href="./sleep.html"><input type="button" class="sleep" value="Sleep"/></a>
-        <a href="./diaper.html"><input type="button" class="diaper" value="Diaper"/></a>
-        <a href="./pump.html"><input type="button" class="pump" value="Pump"/></a>
-        <a href="./extra.html"><input type="button" class="extra"  value="Extra"/></a>
+    <div id="inputData">
+        <form>
+            <input type="button" class="height" value="Height"/>
+            <input type="button" class="weight" value="Weight"/>
+            <input type="button" class="meds" value="Meds"/>
+            <input type="button" class="other" value="Other"/>
+            <br><br>
+            <input type="text" class="time" placeholder="Time" style="width:20%;"/>
+            <input type="text" class="amount" placeholder="Amount" style="width:20%;"/>
+            <input type="text" class="date" placeholder="Date" style="width:20%;"/>
+            <input type="text" class="notes" placeholder="Notes" style="width:20%;"/>
+            <button type="submit" class="submit" style="background-color:#7c43cc; width: 8%; border-radius: 25px; margin-left: 50%;">Submit</button>
+        </form>
     </div>
     <div>
-        <h2 id="feed-head">Feed Entries:</h2>
-        <h2 id="sleep-head">Sleep Entries:</h2>
-        <h2 id="diaper-head">Diaper Entries:</h2>
-        <h2 id="pump-head">Pump Entries:</h2>
-        <h2 id="extra-head">Extra Entries:</h2>
-
+        <h2 id="extra-head" style="margin-top: 100px;">Extra Entries:</h2>
     </div>
 </body>
 </html>

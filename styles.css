@@ -7,7 +7,7 @@ form {
   }
   
   /* Full-width inputs */
-  input[type=text], input[type=password] {
+  input[type=user], input[type=password],  input[type=child] {
     width: 40%;
     padding: 14px 20px;
     margin: 8px 0;
@@ -63,10 +63,12 @@ form {
   margin-bottom: 1%;
   background-color: white;
   display: inline-block;
-  position: relative;
+  position:static;
   font-size: 14pt;
   padding-top: 10pt;
   padding-bottom: 4pt;
+  font-weight:700;
+  width: 96%;
   }
 
 .logo-nav{
@@ -89,7 +91,7 @@ form {
     background-size: 950px;
     position: relative; 
     margin-top:  50px;
-    padding-top: 25px;
+    padding-top: 55px;
     padding-bottom: 25px;
   } 
 
@@ -140,14 +142,30 @@ form {
     }}
 
   #homepage{
-    background-image: url("./images/home-back.jpg");
-    background-repeat: no-repeat;
+    background-image: url("./images/back2.jpg");
+    background-repeat: repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: 30% 60%;
+    background-position: center;
+  }
+
+  #infoDiv{
+    color: rgb(38, 63, 175);
+    font-size: 14pt;
+    font-weight: 700;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+  }
+
+  #resources{
+    color: navy;
+    margin-top: 10%;
+    text-align: center;
   }
 
   .feed {
-    background-color: #3b816c;
+    background-color: #1ca565;
     border: none;
     height: 90px;
     width: 90px;
@@ -163,7 +181,7 @@ form {
   }
 
   .sleep{
-    background-color: #1982C4;
+    background-color: #1190df;
     border: none;
     height: 90px;
     width: 90px;
@@ -178,7 +196,7 @@ form {
   }
 
   .diaper{
-    background-color: #cc9809;
+    background-color: #f5b70e;
     border: none;
     height: 90px;
     width: 90px;
@@ -193,7 +211,7 @@ form {
   }
 
   .pump{
-    background-color: #B24C63;
+    background-color: #ca3155;
     border: none;
     height: 90px;
     width: 90px;
@@ -208,7 +226,7 @@ form {
   }
 
   .extra{
-    background-color: #6A4C93;
+    background-color: #7c43cc;
     border: none;
     height: 90px;
     width: 90px;
@@ -221,4 +239,165 @@ form {
     margin-right: 25%;
     box-shadow: 0px 5px 5px #493566;
   }
-  
+
+  #feed-head{
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 50px;
+  color: white;
+  background-color: #13a05ed2;
+  }
+
+  #feed-head:hover, .feed:hover, .bottle:hover,
+  .solids:hover, .leftFeed:hover, .rightFeed:hover{
+    background-color: #1bc878d2;
+  }
+
+#sleep-head{
+  text-align: center;
+  margin-bottom: 50px;
+  color: white;
+  background-color: #1190dfd2;
+  }
+
+  #sleep-head:hover,.sleep:hover{
+    background-color: #38b2fd;
+  }
+
+#diaper-head{
+  text-align: center;
+  margin-bottom: 50px;
+  color: white;
+  background-color: #f5b70ed2;
+  }
+
+ #diaper-head:hover, .diaper:hover, .wet:hover, .wetAndDirty:hover, .dirty:hover{
+    background-color: #f8ce5a;
+  }
+
+#pump-head{
+  text-align: center;
+  margin-bottom: 50px;
+  color: white;
+  background-color: #ca3155d2;
+  }
+
+  #pump-head:hover,.pump:hover, .leftPump:hover, .rightPump:hover{
+    background-color: #f33d67;
+  }
+
+#extra-head{
+  text-align: center;
+  margin-bottom: 50px;
+  color: white;
+  background-color: #7c43ccd2;
+  }
+
+  #extra-head:hover, .extra:hover, .height:hover, .weight:hover, .meds:hover, .other:hover{
+    background-color: #9550f6d2;
+  }
+
+  .bottle, .solids, .leftFeed, .rightFeed{
+    border: none;
+    color: white;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 14pt;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 3%;
+    box-shadow:  0px 5px 5px #2d6151;
+  }
+
+  .bottle{
+    background-color: #28b975;
+    margin-left: 30%;
+    height: 90px;
+    width: 90px;
+  }
+
+  .solids{
+    background-color: #28b975;
+    height: 90px;
+    width: 90px;
+  }
+
+  .leftFeed, .rightFeed{
+    background-color: #28b975;
+    height: 90px;
+    width: 130px;
+  }
+
+  .time, .amount, .time-end, .date, .notes{
+    width: 20%;
+    padding: 14px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 28px;
+  }
+
+  .time{
+    margin-left: 12%;
+  }
+
+  #sleepPageHead{
+    margin-top: 100px;
+  }
+
+  .wet{
+   margin-left: 40%;
+  }
+
+  .wet, .dirty, .wetAndDirty{
+    background-color: #f5b70e;
+    height: 90px;
+    width: 90px;
+    border: none;
+    color: white;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 14pt;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 3%;
+    box-shadow:  0px 5px 5px #806009;
+  }
+
+  .leftPump, .rightPump{
+    background-color: #ca3155;
+    height: 90px;
+    width: 130px;
+    border: none;
+    color: white;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 14pt;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 3%;
+    box-shadow:  0px 5px 5px #703643;
+  }
+
+  .leftPump{
+    margin-left: 40%;
+  }
+
+  .height, .weight, .meds, .other{
+    background-color: #7c43cc;
+    height: 90px;
+    width: 90px;
+    border: none;
+    color: white;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 14pt;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 3%;
+    box-shadow:  0px 5px 5px #493566;
+  }
+
+  .height{
+    margin-left: 38%;
+  }
